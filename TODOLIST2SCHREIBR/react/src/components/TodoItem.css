@@ -1,0 +1,43 @@
+.todo-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .todo-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .tarea {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 8px;
+  }
+  
+  .estado {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 8px 0;
+  }
+  
+  .estado.completada {
+    color: #198044;
+    text-decoration: line-through;
+  }
+  
+  .estado.pendiente {
+    color: #A95B16;
+  }
+
+  .fecha {
+    font-size: 0.85rem;
+    color: #677172;
+    margin-bottom: 15px;
+  }
+  
